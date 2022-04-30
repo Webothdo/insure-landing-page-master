@@ -8,6 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 25px  25px;
 }
 
 .dropdown {
@@ -44,10 +45,57 @@ header {
 
 #header-image {
     background-image: url("/images/image-intro-mobile.jpg");
-    height:500px;
+    height: 450px;
+    /* width: 100vw; */
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-left-pattern {
+    position: absolute;
+    height: 150px;
+    left: 0;
+    top: 0;
+}
+
+#header-right-pattern {
+    position: absolute;
+    height: 270px;
+    right: 0;
+    bottom: -150px;
 }
 
 main {
-    padding: 50px 8px;
+    position: relative;
+    padding: 70px 9px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+}
+
+h1, main p, .default-button {
+    margin: 10px 0;
+}
+
+.default-button {
+    padding: 7px 20px;
+    border: solid white 1px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0;
+}
+
+.line-break {
+
+}
+
+#features-header {
+    font-size: 2em;
 }
