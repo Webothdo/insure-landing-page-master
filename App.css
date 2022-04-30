@@ -44,7 +44,7 @@ header {
 
 #header-image {
     background-image: url("/images/image-intro-mobile.jpg");
-    height: 100%;
+    height:500px;
     background-repeat: no-repeat;
 }
 
