@@ -1,0 +1,53 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* .dropdownbtn {
+    position: absolute;
+} */
+
+.dropdowncontent {
+    display: none;
+    position: fixed;
+    background-color: rgb(230, 226, 23);
+    right: 1px;
+    width: 100vw;
+    top: 20px;
+    z-index: 1;
+
+}
+
+.dropdowncontent a {
+    color: black;
+    float: none;
+    /* z-index: 1; */
+}
+
+.dropdown:hover .dropdowncontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-image {
+    background-image: url("/images/image-intro-mobile.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 50px 8px;
+}
