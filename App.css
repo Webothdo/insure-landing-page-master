@@ -6,6 +6,11 @@
     font-size: 16px;
 }
 
+footer h3 {
+    color: hsl(0, 0%, 59%);
+    font-size: 1rem;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -34,8 +39,9 @@ header {
 }
 
 .dropdowncontent a {
-    color: black;
+    color: white;
     float: none;
+    text-transform: uppercase;
     /* z-index: 1; */
 }
 
@@ -123,7 +129,7 @@ h1, main p, .default-button {
     margin-bottom: 15px;
 }
 
-.features p {
+.features p, footer p {
     line-height: 30px;
 }
 
@@ -157,3 +163,62 @@ h1, main p, .default-button {
     top: 0;
     z-index: 1;
 }
+
+.footer-head-container {
+    margin: 150px 0 70px 0;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 90px;
+    margin-top: 20px;
+}
+
+footer h3 {
+    margin: 25px 0;
+    font-size: 14px;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.attribution {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.attribution a {
+    color: black;
+}
+
+/* .footer-head {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0 70px 0;
+}
+
+.footer-head-container {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-head-container .logo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-content: center;
+    margin-top: 20px;
+} */
